@@ -1,16 +1,16 @@
-/* body { 
+body { 
     background: url(https://i.ytimg.com/vi/Kf4GkHsRB2w/maxresdefault.jpg);
     background-size:backdrop;
-  } */
+  }
 
-  body { 
+  /* body { 
     background: url(https://i.ytimg.com/vi/Kf4GkHsRB2w/maxresdefault.jpg);
     border-color: rgb(205, 255, 243) ;
     background-size:cover;
     color: whitesmoke;
     font-size:large;
     border-image: url(https://newcastlebeach.org/images/flower-borders-and-frames-7.png);
-       }
+       } */
 
   h1 {text-align: center;}
   h2 {text-align: center;}
