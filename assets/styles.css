@@ -1,27 +1,14 @@
 body { 
-    background: url(https://i.ytimg.com/vi/Kf4GkHsRB2w/maxresdefault.jpg);
-    background-size:backdrop;
+    background: url(https://th.bing.com/th/id/OIP.p9T9jnhcfGlW3SlXdm5izQHaEK?pid=ImgDet&rs=1);
+    background-size:2500px;
   }
 
-  /* body { 
-    background: url(https://i.ytimg.com/vi/Kf4GkHsRB2w/maxresdefault.jpg);
-    border-color: rgb(205, 255, 243) ;
-    background-size:cover;
-    color: whitesmoke;
-    font-size:large;
-    border-image: url(https://newcastlebeach.org/images/flower-borders-and-frames-7.png);
-       } */
-
-  h1 {text-align: center;}
-  h2 {text-align: center;}
-  h3 {text-align: center;}
-
-  h4 {text-align: center;
-      color: white;
+  h1,h2,h3,h4,p,ul {
+    text-align: center;
+      color: black;
+      font:bolder;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 14;
+      font-size: 24;
     }
     
-  ul {text-align: center;}
-  p {text-align: center; }
   a {text-align: center;}
