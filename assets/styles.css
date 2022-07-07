@@ -1,14 +1,35 @@
 body { 
-    background: url(https://th.bing.com/th/id/OIP.p9T9jnhcfGlW3SlXdm5izQHaEK?pid=ImgDet&rs=1);
+    background-color:black;
     background-size:2500px;
   }
 
-  h1,h2,h3,h4,p,ul {
+  h1,h2,h3,h4,ul {
     text-align: center;
-      color: black;
+      color: skyblue;
       font:bolder;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 24;
+      font-size: 24px;
+    }
+
+    p {
+      text-align: center;
+      color: skyblue;
+      font:bolder;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 28px;
+    }
+  
+    button {
+      font-size:25px;
+      background-color: rgba(238, 217, 101, 0.945);
+      border-radius:15px;
+      box-shadow: 5px 1px blue;
+      border-collapse:collapse ;
     }
     
   a {text-align: center;}
+
+  em {
+
+    color:pink;
+  }
