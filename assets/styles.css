@@ -3,33 +3,80 @@ body {
     background-size:2500px;
   }
 
-  h1,h2,h3,h4,ul {
+  h1,h2,h4,ul {
     text-align: center;
       color: skyblue;
       font:bolder;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 24px;
+      font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 20px;
     }
+
+
+    h3 {
+      text-align: center;
+      color: skyblue;
+      font:bolder;
+      font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 24px;
+      /* float:left; */
+    }
+
 
     p {
       text-align: center;
       color: skyblue;
-      font:bolder;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 28px;
+      font: bolder;
+      font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 20px;
+
     }
   
+    .field {
+      float: left;
+      width: 30%;
+      padding: 60px;
+      height: 30px;
+    }
+
+     .column {
+      display: inline-block;
+      width: 20%;
+      padding: 60px;
+      height: 300px;
+      transition: right 2s;
+      margin-left:80px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    } */
+
+    img {
+        height:-10px;
+        width:10px;
+    }
+ 
+
     button {
       font-size:25px;
       background-color: rgba(238, 217, 101, 0.945);
       border-radius:15px;
       box-shadow: 5px 1px blue;
       border-collapse:collapse ;
+      margin-right:200px;
     }
     
-  a {text-align: center;}
+  a {
+    color:pink;
+    font-size:20px;
+    margin-right:100px;
+  
+  }
 
   em {
-
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color:pink;
   }
