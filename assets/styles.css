@@ -5,10 +5,16 @@ html {
 
 nav {
   background-color:beige;
-  height:40px;
-  width:1500px;
+  height:70px;
+  width:1700px;
   justify-content: center;
-  margin-left:200px;
+  margin-left:50px;
+  margin-top:30px;
+
+}
+
+.bottom {
+    margin-left:200px;
 }
 
 body { 
@@ -18,11 +24,11 @@ body {
   }
 
   h1,h2,h4,ul {
-    text-align: center;
+      text-align: center;
       color: skyblue;
       font:bolder;
       font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 20px;
+      font-size: 22px;
     }
 
 
@@ -34,9 +40,18 @@ body {
       font-size: 24px;
       text-decoration: underline;     
       text-decoration-color: blue;  
+      margin-right:40px;
     }
 
+h5 {
+  color:blue;
+  text-align:center;
+  font-size:20px;
+  display: inline-block;
+  margin-left:450px;
+  background-color:beige;
 
+}
 
     p {
       text-align: center;
@@ -56,15 +71,26 @@ body {
 
      .column {
       display: inline-block;
-      width: 20%;
-      padding: 60px;
+      width: 18%;
+      padding: 80px;
       height: 300px;
-      margin-left: 90px;
+      margin-left: 100px;
       transition: height 1s;
       border-color:pink 20px;
       border-style:solid;
 
     }
+   
+  .column:hover {
+    color:blue;
+    font-size:20px;
+    background-color:beige;
+    height:450px;
+    width:360px;
+    border-color: blue 16px;
+    border-radius:20px;
+  
+  }
     
     /* Clear floats after the columns */
     .row:after {
@@ -76,7 +102,7 @@ body {
     img {
         height:-10px;
         width:10px;
-        margin-left:200px;
+        margin-left:600px;
     }
 
     title {
@@ -93,38 +119,11 @@ body {
       width:20px;
       margin-top:30px;
       font:bolder;
+      text-align:center;
     }
-    
-    button {
-      font-size: 25px;
-      background-color: rgba(238, 217, 101, 0.945);
-      border-radius:15px;
-      box-shadow: 5px 1px blue;
-      border-collapse:collapse ;
-      margin-right:200px;
-    }
-    
-  .column:hover {
-    color:blue;
-    font-size:20px;
-    background-color:beige;
-    height:450px;
-    width:360px;
-    border-color: blue 16px;
-    border-radius:20px;
 
-  }
+    
 
-  .hide {
-    display: none;
-    color: black;
-    border-radius:pink
-  }
-  
-  /* .myDIV + .hide {
-    display: block;
-    color: red;
-  } */
 
 
   em {
