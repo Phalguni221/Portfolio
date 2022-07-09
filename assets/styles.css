@@ -1,6 +1,20 @@
+html {
+
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color:beige;
+  height:40px;
+  width:1500px;
+  justify-content: center;
+  margin-left:200px;
+}
+
 body { 
     background-color:black;
     background-size:2500px;
+   
   }
 
   h1,h2,h4,ul {
@@ -58,8 +72,23 @@ body {
         height:-10px;
         width:10px;
     }
- 
 
+    title {
+
+      color:blue;
+      background-color:beige;
+      transition:right 2s;
+      font-size:20px;
+    }
+ 
+    ul {
+      color:blue;
+      height:20px;
+      width:20px;
+      margin-top:30px;
+      font:bolder;
+    }
+    
     button {
       font-size:25px;
       background-color: rgba(238, 217, 101, 0.945);
@@ -69,12 +98,26 @@ body {
       margin-right:200px;
     }
     
-  a {
-    color:pink;
+  a:hover {
+    color:blue;
     font-size:20px;
-    margin-right:100px;
-  
+    background-color:white;
+    z-index:3;
+    height:400px;
+    width:200px;
+    
   }
+
+  .hide {
+    display: none;
+    color: red;
+  }
+  
+  /* .myDIV + .hide {
+    display: block;
+    color: red;
+  } */
+
 
   em {
     font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
