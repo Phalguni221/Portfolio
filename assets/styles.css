@@ -29,6 +29,7 @@ body {
       font:bolder;
       font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 22px;
+      margin-right:20px;
     }
 
 
@@ -131,4 +132,5 @@ h5 {
   em {
     font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color:pink;
+    margin-left:20px;
   }
