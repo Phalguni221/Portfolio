@@ -20,9 +20,6 @@ nav {
 body { 
     background-color:black;
     background-size:2500px;
-    position: fixed;
-    overflow-y: scroll;
-    width: 100%;
    
   }
 
