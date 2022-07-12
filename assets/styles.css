@@ -5,11 +5,12 @@ html {
 
 .nav {
   background-color:beige;
-  height:70px;
+  height:100px;
   width:1000px;
   justify-content: center;
   margin-left:50px;
   margin-top:30px;
+  font-size:20px;
 
 }
 
@@ -47,10 +48,10 @@ body {
 h5 {
   color:blue;
   text-align:center;
-  font-size: 20px;
+  font-size: 25px;
   display: inline-block;
   justify-content: center;
-  margin-left:380px;
+  margin-left:370px;
   background-color:beige;
 
 }
@@ -132,5 +133,5 @@ h5 {
   em {
     font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color:pink;
-    margin-left:20px;
+   
   }
