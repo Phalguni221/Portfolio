@@ -6,11 +6,12 @@ html {
 .nav {
   background-color:beige;
   height:100px;
-  width:1000px;
+  width:100px;
   justify-content: center;
-  margin-left:50px;
+  margin-left:500px;
   margin-top:30px;
   font-size:20px;
+
 
 }
 
@@ -23,6 +24,20 @@ body {
     background-size:2500px;
    
   }
+
+  button {
+    background-color:beige;
+    transform:scale(0.8);
+  }
+
+button:hover {
+  opacity:0.8;
+  background-color:hotpink;
+  border-radius:2px;
+  border-color:beige;
+  border-width:5px;
+
+}
 
   h1,h2,h4,ul {
       text-align: center;
@@ -48,12 +63,12 @@ body {
 h5 {
   color:blue;
   text-align:center;
-  font-size: 25px;
+  font-size: 20px;
   display: inline-block;
   justify-content: center;
-  margin-left:370px;
-  background-color:beige;
-
+  margin-right:100px; 
+   margin-left:100px;
+  /* background-color:beige; */
 }
 
     p {
@@ -116,6 +131,12 @@ h5 {
       transition:right 2s;
       font-size:20px;
     }
+
+    td {
+      margin-right:200px;
+    }
+
+  
  
     ul {
       color:blue;
