@@ -1,0 +1,158 @@
+html {
+  height:50%;
+  scroll-behavior: smooth;
+}
+
+.nav {
+  background-color:beige;
+  height:100px;
+  width:100px;
+  justify-content: center;
+  margin-left:500px;
+  margin-top:30px;
+  font-size:20px;
+
+
+}
+
+.bottom {
+    margin-left:200px;
+}
+
+body { 
+    background-color:black;
+    background-size:2500px;
+   
+  }
+
+  button {
+    background-color:beige;
+    transform:scale(0.8);
+  }
+
+button:hover {
+  opacity:0.8;
+  background-color:hotpink;
+  border-radius:2px;
+  border-color:beige;
+  border-width:5px;
+
+}
+
+  h1,h2,h4,ul {
+      text-align: center;
+      color: skyblue;
+      font:bolder;
+      font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 22px;
+      margin-right:20px;
+    }
+
+
+    h3 {
+      text-align: center;
+      color: skyblue;
+      font:bolder;
+      font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 24px;
+      text-decoration: underline;     
+      text-decoration-color: blue;  
+      margin-right:40px;
+    }
+
+h5 {
+  color:blue;
+  text-align:center;
+  font-size: 20px;
+  display: inline-block;
+  justify-content: center;
+  margin-right:100px; 
+   margin-left:100px;
+  /* background-color:beige; */
+}
+
+    p {
+      text-align: center;
+      color:black;
+      font: bolder;
+      font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 20px;
+
+
+    }
+  
+    .field {
+      float: left;
+      width: 30%;
+      padding: 60px;
+      height: 30px;
+    }
+
+     .column {
+      display: inline-block;
+      width: 18%;
+      padding: 80px;
+      height: 300px;
+      margin-left: 100px;
+      transition: height 1s;
+      border-color:pink 20px;
+      border-style:solid;
+
+    }
+   
+  .column:hover {
+    color:blue;
+    font-size:20px;
+    background-color:beige;
+    height:450px;
+    width:360px;
+    border-color: blue 16px;
+    border-radius:20px;
+  
+  }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    } */
+
+    img {
+        height:-10px;
+        width:10px;
+        margin-left:600px;
+    }
+
+    title {
+
+      color:black;
+      background-color:beige;
+      transition:right 2s;
+      font-size:20px;
+    }
+
+    td {
+      margin-right:200px;
+    }
+
+  
+ 
+    ul {
+      color:blue;
+      height:20px;
+      width:20px;
+      margin-top:30px;
+      font:bolder;
+      text-align:center;
+    }
+
+    
+
+
+
+  em {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:pink;
+   
+  }
